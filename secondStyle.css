@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    margin-top: 25px;
+    background-color: white;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    opacity: 0.9;
+    box-shadow: 0 0 0px rgb(138, 138, 155);
+
+}
+
+.container {
+    /* width: 55%; */
+    width: 600px;
+    margin: 0 auto;
+    padding-left: 5%;
+    float: left;
+    display: grid;
+    grid-template-columns: 92%;
+    grid-auto-rows: minmax(300px auto);
+    gap: 0.3%;
+
+}
+
+.rightside {
+    margin-top: 10%;
+    width: 40%;
+    float: left;
+
+}
+
+#back {
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    box-shadow: 0 0 6px rgb(138, 138, 155);
+}
+
+.sec1,
+h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-top: 13px;
+    margin-bottom: 20px;
+    box-shadow: 500px;
+    border: solid rgba(#000, .9)
+}
+
+#date {
+    color: gray;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#sec1divPara1,
+#sec1divPara12 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#seclastPara {
+    opacity: 0.85;
+    box-shadow: 0 0 6px rgb(138, 138, 155);
+    font-style: italic;
+    padding: 10px;
+
+}
+
+#lastp {
+    font-style: italic;
+}
+
+#Last {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sec2,
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec3,
+hr,
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dis {
+    display: block;
+
+    opacity: 0.95;
+    box-shadow: 0 0 6px rgb(222, 222, 230);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#main {
+    text-align: center;
+}
+
+.unorList,
+.listOrder {
+    margin-left: 7%;
+}
+
+#first,
+#second {
+    margin-top: 3%;
+    border: 2px solid red;
+    background-color: #e0cfcf;
+    color: black;
+    border-radius: 10px;
+    margin-left: 5%;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hoemButton {
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 2%;
+
+}
+
+#serach {
+    float: right;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+@media(max-width:80%) {
+    #back {
+        margin-top: 10px;
+        display: block;
+        /* float: left; */
+        margin: 0px auto;
+
+    }
+}
